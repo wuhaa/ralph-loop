@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ralph loop for kiro-cli
+# Ralph loop
 
 COUNT=0
 MAX=100
