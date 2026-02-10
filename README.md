@@ -1,6 +1,6 @@
 # Ralph loop
 
-This is a simple shell script to run a Ralph loop. Currently, it supports [Kiro CLI](https://kiro.dev/cli/), feel free to modify this for other similar tools. The loop is set to 10 iteration with 5 sec delay. This can be set highter, but it will burn a lot of tokens.
+This is a simple shell script to run a Ralph loop. Currently, it supports [Kiro CLI](https://kiro.dev/cli/), feel free to modify this for other similar tools. The loop is set to 10 iterations with 5 sec delay. Be warned that setting this number higher will burn increasingly more tokens.
 
 ## Install
 
