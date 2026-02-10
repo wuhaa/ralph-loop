@@ -1,6 +1,6 @@
 # Ralph loop
 
-This is a simple shell script to run a Ralph loop. Currently, it supports [Kiro CLI](https://kiro.dev/cli/), this can be easily edited for other similar tools.
+This is a simple shell script to run a Ralph loop. Currently, it supports [Kiro CLI](https://kiro.dev/cli/), feel free to modify this for other similar tools.
 
 ## Install
 
