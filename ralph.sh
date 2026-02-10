@@ -3,7 +3,7 @@
 # Ralph loop
 
 COUNT=0
-MAX=100
+MAX=10
 
 # Set default model
 kiro-cli settings chat.defaultModel "claude-opus-4.6"
