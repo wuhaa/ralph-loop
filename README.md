@@ -1,6 +1,8 @@
-# Ralph loop
+# Ralph Loop
 
-This is a simple shell script to run a Ralph loop. Currently, it supports [Kiro CLI](https://kiro.dev/cli/), feel free to modify this for other similar tools. The loop is set to 10 iterations with 5 sec delay. Be warned that setting this number higher will burn increasingly more tokens.
+A simple shell script that runs an agentic loop, repeatedly prompting an AI CLI tool to continue working on a task. Currently supports **Kiro CLI** — feel free to modify it for other similar tools (e.g., Claude CLI).
+
+The loop runs for **10 iterations** with a **5-second delay** between each. Be warned: increasing the iteration count will burn through tokens quickly.
 
 ## Install
 
@@ -12,15 +14,14 @@ chmod 700 ~/bin/ralph
 
 ## Usage
 
-Cleaate a prompt file:
+Create a prompt file:
 
 ```bash
 echo "Create a simple todo web app with dark theme that allows a user to add items and mark items as completed." > prompt.md
 ```
 
-Run the loop
+Run the loop:
+
 ```bash
 ralph prompt.md
 ```
-
-
